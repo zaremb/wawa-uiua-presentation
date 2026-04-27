@@ -1,0 +1,12 @@
+/* Global code block styling — larger, more readable from back of room */
+.slidev-code {
+  font-size: 1.25rem !important;
+  line-height: 1.8 !important;
+}
+
+/* Code block background — true black to match slide backgrounds */
+.slidev-code-wrapper .shiki {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border-radius: 0.5rem;
+  padding: 1.5rem !important;
+}

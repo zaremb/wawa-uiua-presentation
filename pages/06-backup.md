@@ -51,7 +51,7 @@ clicks: 10
 </div>
 
 <!--
-[backup — only if asked or time allows]
+[backup - only if asked or time allows]
 
 Remember that "alien" expression from slide one? Let's prove it's not magic.
 
@@ -65,5 +65,5 @@ We start with zero and one.
 
 [click] Ten Fibonacci numbers. One line of code. Take the last two, add them, append. That's ALL this expression does.
 
-The "alien" code from the beginning? Just this — repeated addition on a stack.
+The "alien" code from the beginning? Just this - repeated addition on a stack.
 -->

@@ -17,7 +17,7 @@ class: bg-black text-center
 
 [deadpan] ...here is the transcription.
 
-[pause — let people squint at it]
+[pause - let people squint at it]
 
 [casual] Actually... I lied. This is not Klingon at all.
 
@@ -40,6 +40,8 @@ transition: fade
 <div class="text-3xl op-90 mt-3">Very Nice Array Programming! 🍕</div>
 </div>
 
+<BgEmoji emoji="🍕" :count="12" animate="drift" :opacity="0.15" :seed="11" />
+
 <!--
 [Borat voice, full commitment] "Wawa-Uiua! VERY NIIIIICE!"
 
@@ -47,11 +49,11 @@ transition: fade
 
 Welcome to Python Pizza Warsaw! Or as Borat and I call it... Wawa.
 
-"Uiua" — pronounced "WEE-wah." Wawa-Uiua. Very nice. I will not apologize for this pun.
+"Uiua" - pronounced "WEE-wah." Wawa-Uiua. Very nice. I will not apologize for this pun.
 
 I'm here to talk about a stack-based, array-oriented programming language that looks like someone spilled a Unicode chart on their keyboard.
 
-But I promise — by the end of this talk, you'll start to see beauty in those squiggles. And more importantly, they'll change how you think about Python.
+But I promise - by the end of this talk, you'll start to see beauty in those squiggles. And more importantly, they'll change how you think about Python.
 
 Let's go. Great success!
 -->
@@ -68,9 +70,9 @@ transition: fade
 <div class="text-xl op-75 mt-3">ex-AWS · Python · aerospace engineer · sailor ⛵</div>
 
 <!--
-[quick — 5 seconds max, don't linger]
+[quick - 5 seconds max, don't linger]
 
-I'm Mateusz. I'm a Senior Application Architect at Ørsted — the wind energy company. Before that, I was at AWS.
+I'm Mateusz. I'm a Senior Application Architect at Ørsted - the wind energy company. Before that, I was at AWS.
 
 I mostly write Python, but before all of this tech stuff, I studied aerospace engineering. And I sail.
 

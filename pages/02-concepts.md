@@ -5,8 +5,10 @@ transition: slide-left
 
 # What is Uiua?
 
+<BgEmoji emoji="🚀" :count="5" animate="fly" :opacity="0.20" :seed="33" />
+
 <!--
-[transition — shift energy from playful to curious]
+[transition - shift energy from playful to curious]
 
 Okay. So what IS this thing?
 
@@ -25,7 +27,7 @@ Stack-based. Array-oriented.
 
 That's it. That's the whole paradigm.
 
-Stack-based means: there are no variable names. You push values onto a stack, and functions consume them. Like a calculator — last in, first out.
+Stack-based means: there are no variable names. You push values onto a stack, and functions consume them. Like a calculator - last in, first out.
 
 Array-oriented means: EVERYTHING is an array. A single number? That's a zero-dimensional array. A list? One-dimensional array. There are no scalars. Operations apply to entire arrays at once, automatically.
 
@@ -59,7 +61,7 @@ clicks: 4
 </div>
 
 <!--
-[quick demo — 20 seconds max]
+[quick demo - 20 seconds max]
 
 Here's how the stack works. Super simple.
 
@@ -67,9 +69,9 @@ Here's how the stack works. Super simple.
 
 [click] Push 5. Two values sitting there, waiting.
 
-[click] "Add" — eats the top two, pushes back their sum. Eight.
+[click] "Add" - eats the top two, pushes back their sum. Eight.
 
-[click] Multiply by two — sixteen. Each operation transforms what's on the stack.
+[click] Multiply by two - sixteen. Each operation transforms what's on the stack.
 
 No variables. No names. Just data flowing through.
 -->
@@ -98,24 +100,24 @@ clicks: 3
 </div>
 
 <div class="text-2xl op-90 h-10">
-  <span v-show="$clicks === 0"><span class="text-yellow-400 font-mono">⇡5</span> — range of 5</span>
-  <span v-show="$clicks === 1"><span class="text-yellow-400 font-mono">+1</span> — add 1 to every element</span>
-  <span v-show="$clicks === 2"><span class="text-yellow-400 font-mono">⇌</span> — reverse</span>
+  <span v-show="$clicks === 0"><span class="text-yellow-400 font-mono">⇡5</span> - range of 5</span>
+  <span v-show="$clicks === 1"><span class="text-yellow-400 font-mono">+1</span> - add 1 to every element</span>
+  <span v-show="$clicks === 2"><span class="text-yellow-400 font-mono">⇌</span> - reverse</span>
 </div>
 </div>
 
 <!--
-Now the same idea — but with arrays. In Uiua, everything is an array.
+Now the same idea - but with arrays. In Uiua, everything is an array.
 
-Range of 5 — one glyph creates a whole array on the stack.
+Range of 5 - one glyph creates a whole array on the stack.
 
-[click] Plus one — adds to EVERY element. No loop. The whole array transforms at once.
+[click] Plus one - adds to EVERY element. No loop. The whole array transforms at once.
 
-[click] Reverse — flips it. Three glyphs, three transformations.
+[click] Reverse - flips it. Three glyphs, three transformations.
 
 [click] Three glyphs. One line. No variables, no loops. Data just flows.
 
-Now — I know what some of you are thinking...
+Now - I know what some of you are thinking...
 -->
 
 ---
@@ -129,11 +131,11 @@ transition: fade
 <div v-click class="text-5xl font-bold">"Unreadable!"</div>
 
 <!--
-[show the Fibonacci expression — let it sit for 3 seconds in silence]
+[show the Fibonacci expression - let it sit for 3 seconds in silence]
 
 Remember this from the beginning?
 
-[pause — let the audience squint at it]
+[pause - let the audience squint at it]
 
 [click] Yeah. "Unreadable." That's what everyone says.
 
@@ -147,7 +149,7 @@ transition: fade
 
 <div class="text-4xl font-bold leading-relaxed text-center">
 Unfamiliar
-<div v-click class="text-3xl op-90 mt-2 font-normal">is not the same as</div>
+<div v-click class="text-3xl mt-2 font-normal text-yellow-400">is not the same as</div>
 <div v-click class="text-4xl mt-2">unreadable.</div>
 </div>
 
@@ -156,7 +158,7 @@ Unfamiliar... [click] is not the same as... [click] unreadable.
 
 This is a crucial distinction. In the world of array programming, there's a famous saying exactly like this.
 
-Think about it — when you first saw Python list comprehensions, they looked weird too. Now you read them fluently.
+Think about it - when you first saw Python list comprehensions, they looked weird too. Now you read them fluently.
 
 The symbols in Uiua are the same. Once you know that ⇌ means "reverse" and ♭ means "flatten," you stop seeing weird squiggles and start seeing the architecture of your data.
 
@@ -185,7 +187,7 @@ To someone who's never learned it, sheet music is just... dots on lines. Meaning
 
 [click] But to a musician? It's a melody. They HEAR it when they look at it.
 
-Uiua is the same. Once you learn about twenty symbols — and that's the whole language — you don't "decode" the code anymore. You just... read the shape of the data.
+Uiua is the same. Once you learn about twenty symbols - and that's the whole language - you don't "decode" the code anymore. You just... read the shape of the data.
 -->
 
 ---
@@ -201,7 +203,7 @@ You type <span class="font-mono text-blue-400">reverse</span>
 </div>
 
 <!--
-And here's the best part — you don't need a special keyboard.
+And here's the best part - you don't need a special keyboard.
 
 You type the word "reverse"... [click] and the editor turns it into this glyph. Automatically.
 

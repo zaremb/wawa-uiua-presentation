@@ -2,7 +2,7 @@
 theme: default
 title: "Wawa-Uiua! Very Nice Array Programming!"
 info: |
-  Python Pizza Warsaw — A 10-minute talk about Uiua,
+  Python Pizza Warsaw - A 10-minute talk about Uiua,
   a stack-based array language that looks alien but thinks like a supercomputer.
 layout: none
 class: bg-black
@@ -10,6 +10,8 @@ transition: fade
 drawings:
   persist: false
 colorSchema: dark
+highlighter: shiki
+shiki: dracula-soft
 duration: 10min
 fonts:
   mono: "JetBrains Mono"
@@ -17,18 +19,20 @@ fonts:
 ---
 
 <!--
-[total silence — let the dark screen sit for 3 seconds]
+[total silence - let the dark screen sit for 3 seconds]
 
 [deadpan, in mock-serious tone, looking at audience]
-"nuqneH. jIyajbe'... tlhIngan Hol Dajatlh'a'?"
+"nuqneH! Hol chu' Daghojqang'a'?"
 
-[pronunciation: "nookh-NEKH. jee-YAJJ-beh... TLING-ahn KHOL da-JATL-ah?"]
+[pronunciation: "nookh-NEKH! KHOL choo da-GHOJ-kang-AH?"]
 
-[pause — let the confusion fill the room]
+[wymowa po polsku: „nukNECH! CHOL czu da-GODŻ-kang-A?"]
 
-Okay. That was Klingon. It means "What do you want?" — which is how Klingons say hello.
+[pause - let the confusion fill the room]
 
-Now — here is the transcription of what I just said...
+Okay. That was Klingon. It means "What do you want? Are you willing to learn a new language?" — which, as it turns out, is exactly why we're here.
+
+Now - here is the transcription of what I just said...
 -->
 
 ---
