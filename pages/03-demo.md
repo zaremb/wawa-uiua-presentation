@@ -57,13 +57,13 @@ clicks: 7
 <div class="h-full w-full flex flex-col items-center justify-center">
 <div class="text-2xl op-90 mb-4">The same transformation</div>
 <div class="text-5xl font-mono mb-10 flex items-center justify-center gap-1" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.1)">
-  <span :class="$clicks === 7 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">/+</span><span :class="$clicks === 6 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">×2</span><span :class="$clicks === 5 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">▽</span><span :class="$clicks === 4 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">=0</span><span :class="$clicks === 3 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">◿2</span><span :class="$clicks === 2 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">.</span><span :class="$clicks === 1 ? 'text-yellow-400 scale-125' : 'text-green-400 op-60'" class="transition-all duration-300">⇡10</span>
+  <span :class="$clicks === 7 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">/+</span><span :class="$clicks === 6 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">×2</span><span :class="$clicks === 5 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">▽</span><span :class="$clicks === 4 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">=0</span><span :class="$clicks === 3 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">◿2</span><span :class="$clicks === 2 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">⟜∘</span><span :class="$clicks === 1 ? 'text-yellow-400 scale-125' : 'text-green-400 op-60'" class="transition-all duration-300">⇡10</span>
 </div>
 
 <div class="text-2xl h-16 flex flex-col items-center justify-center">
   <div v-show="$clicks === 0" class="op-75">← read right to left</div>
   <div v-show="$clicks === 1" class="text-yellow-400"><span class="font-mono">⇡10</span> <span class="op-90 ml-2">range - gives us 0..9</span></div>
-  <div v-show="$clicks === 2" class="text-yellow-400"><span class="font-mono">.</span> <span class="op-90 ml-2">duplicate - copy the array</span></div>
+  <div v-show="$clicks === 2" class="text-yellow-400"><span class="font-mono">⟜∘</span> <span class="op-90 ml-2">duplicate - copy the array</span></div>
   <div v-show="$clicks === 3" class="text-yellow-400"><span class="font-mono">◿2</span> <span class="op-90 ml-2">modulo 2 - remainder of each</span></div>
   <div v-show="$clicks === 4" class="text-yellow-400"><span class="font-mono">=0</span> <span class="op-90 ml-2">equals 0 - mask of evens</span></div>
   <div v-show="$clicks === 5" class="text-yellow-400"><span class="font-mono">▽</span> <span class="op-90 ml-2">keep - filter by the mask</span></div>
@@ -114,7 +114,7 @@ class: text-center
 
 <div class="text-5xl font-mono text-green-400 mb-8" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.4), 0 0 60px rgba(74, 222, 128, 0.15)">
 
-/+×<span class="text-yellow-400">3</span>▽=0◿2.⇡10
+/+×<span class="text-yellow-400">3</span>▽=0◿2⟜∘⇡10
 
 </div>
 

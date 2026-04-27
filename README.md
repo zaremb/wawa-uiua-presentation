@@ -9,7 +9,7 @@ Presented at **Python Pizza Warsaw** by [Mateusz Zaremba](https://www.linkedin.c
 Uiua (pronounced "WEE-wah") is a language where a single line like:
 
 ```
-/+×2▽=0◿2.⇡10
+/+×2▽=0◿2⟜∘⇡10
 ```
 
 filters even numbers, doubles them, and sums the result — no variables, no loops, no names.

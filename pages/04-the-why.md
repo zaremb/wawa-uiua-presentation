@@ -46,7 +46,7 @@ transition: fade
 ---
 
 <div class="text-3xl leading-relaxed max-w-2xl mx-auto">
-<div class="font-mono text-2xl text-green-400 mb-6" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.3)">×2▽=0◿2.⇡10</div>
+<div class="font-mono text-2xl text-green-400 mb-6" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.3)">×2▽=0◿2⟜∘⇡10</div>
 Remember this?
 <div v-click class="mt-8 font-mono text-2xl bg-black/60 rounded-lg px-6 py-4 inline-block">
 result <span class="text-pink-400">=</span> numbers[numbers <span class="text-pink-400">%</span> <span class="text-cyan-400">2</span> <span class="text-pink-400">==</span> <span class="text-cyan-400">0</span>] <span class="text-pink-400">*</span> <span class="text-cyan-400">2</span>
