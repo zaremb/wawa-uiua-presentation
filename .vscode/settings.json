@@ -1,0 +1,29 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#47949b",
+        "activityBar.background": "#47949b",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#833c7d",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#47949b",
+        "statusBar.background": "#377378",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#47949b",
+        "statusBarItem.remoteBackground": "#377378",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#377378",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#37737899",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.remoteColor": "#377378",
+    "playwright.env": {
+        "PLAYWRIGHT_BROWSERS_PATH": "0"
+    },
+    "playwright.browser": "firefox",
+    "playwright.launchOptions": {
+        "executablePath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+    }
+}
