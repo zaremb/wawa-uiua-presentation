@@ -30,7 +30,7 @@ fonts:
 
 [pause - let the confusion fill the room]
 
-Okay. That was Klingon. It means "What do you want? Are you willing to learn a new language?" — which, as it turns out, is exactly why we're here.
+Okay. That was Klingon. It means "What do you want? Are you willing to learn a new language?" - which, as it turns out, is exactly why we're here.
 
 Now - here is the transcription of what I just said...
 -->

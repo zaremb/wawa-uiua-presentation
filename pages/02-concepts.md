@@ -80,7 +80,7 @@ No variables. No names. Just data flowing through.
 layout: center
 class: text-center
 transition: fade
-clicks: 3
+clicks: 4
 ---
 
 <div class="font-mono text-center">
@@ -89,20 +89,23 @@ clicks: 3
 <div class="text-4xl mb-4 text-green-400" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.4), 0 0 60px rgba(74, 222, 128, 0.15)">
   <span v-show="$clicks === 0">⇡5</span>
   <span v-show="$clicks === 1">+1⇡5</span>
-  <span v-show="$clicks >= 2">⇌+1⇡5</span>
+  <span v-show="$clicks === 2">⇌+1⇡5</span>
+  <span v-show="$clicks >= 3">/+⇌+1⇡5</span>
 </div>
 
 <div class="text-3xl mb-6 h-14 flex items-center justify-center text-yellow-400">
   <span v-show="$clicks === 0">[0 1 2 3 4]</span>
   <span v-show="$clicks === 1">[1 2 3 4 5]</span>
   <span v-show="$clicks === 2">[5 4 3 2 1]</span>
-  <span v-show="$clicks === 3" class="text-2xl">Three glyphs. One line. No loops.</span>
+  <span v-show="$clicks === 3">15</span>
+  <span v-show="$clicks === 4" class="text-2xl">Four glyphs. One line. Array to number.</span>
 </div>
 
 <div class="text-2xl op-90 h-10">
   <span v-show="$clicks === 0"><span class="text-yellow-400 font-mono">⇡5</span> - range of 5</span>
   <span v-show="$clicks === 1"><span class="text-yellow-400 font-mono">+1</span> - add 1 to every element</span>
   <span v-show="$clicks === 2"><span class="text-yellow-400 font-mono">⇌</span> - reverse</span>
+  <span v-show="$clicks === 3"><span class="text-yellow-400 font-mono">/+</span> - reduce add - sum the whole array</span>
 </div>
 </div>
 
@@ -115,7 +118,9 @@ Range of 5 - one glyph creates a whole array on the stack.
 
 [click] Reverse - flips it. Three glyphs, three transformations.
 
-[click] Three glyphs. One line. No variables, no loops. Data just flows.
+[click] Reduce add - slash-plus. The whole array collapses into a single number. Fifteen.
+
+[click] Four glyphs. One line. We went from nothing to an array, transformed it, and reduced it to a single value. No variables, no loops.
 
 Now - I know what some of you are thinking...
 -->
