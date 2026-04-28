@@ -67,9 +67,9 @@ transition: fade
 
 <div class="h-full flex flex-col justify-center pl-4">
 <div class="text-5xl font-bold tracking-tight">Mateusz Zaremba</div>
-<div class="text-2xl op-60 mt-6">Senior Application Architect</div>
+<div class="text-2xl op-80 mt-6">Senior Application Architect</div>
 <div class="text-2xl text-blue-400 mt-1">Ørsted</div>
-<div class="text-base op-40 mt-8 font-mono">ex-AWS · Python · aerospace · ⛵</div>
+<div class="text-base op-70 mt-8 font-mono">ex-AWS · Python · aerospace · ⛵</div>
 </div>
 
 <!--
