@@ -49,7 +49,7 @@ transition: fade
 
 <div class="mt-8 text-lg op-75">Mateusz Zaremba · Ørsted</div>
 
-<BgEmoji emoji="🍄" :count="12" animate="grow" :opacity="0.15" :seed="77" />
+<BgEmoji emoji="🍄" :count="12" animate="grow" :opacity="0.80" :seed="77" />
 
 <!--
 [Borat voice, big energy] "WAWA-UIUA! Very niiiiice!"
