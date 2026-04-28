@@ -59,15 +59,18 @@ Let's go. Great success!
 -->
 
 ---
-layout: center
-class: text-center
+layout: image-left
+image: /images/mateusz.jpg
+class: bg-black text-white
 transition: fade
 ---
 
-<img src="/images/mateusz.jpg" class="h-32 rounded-full mx-auto mb-6" alt="Mateusz Zaremba" />
-<div class="text-4xl font-bold">Mateusz Zaremba</div>
-<div class="text-2xl op-90 mt-4">Senior Application Architect · <span class="text-blue-400">Ørsted</span></div>
-<div class="text-xl op-75 mt-3">ex-AWS · Python · aerospace engineer · sailor ⛵</div>
+<div class="h-full flex flex-col justify-center pl-4">
+<div class="text-5xl font-bold tracking-tight">Mateusz Zaremba</div>
+<div class="text-2xl op-60 mt-6">Senior Application Architect</div>
+<div class="text-2xl text-blue-400 mt-1">Ørsted</div>
+<div class="text-base op-40 mt-8 font-mono">ex-AWS · Python · aerospace · ⛵</div>
+</div>
 
 <!--
 [quick - 5 seconds max, don't linger]

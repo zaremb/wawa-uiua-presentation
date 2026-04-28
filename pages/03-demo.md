@@ -23,11 +23,11 @@ class: text-left
 <h1 class="text-4xl mb-6">The Python way</h1>
 
 <div class="font-mono text-xl leading-loose bg-black/60 rounded-lg p-6">
-<div>numbers <span class="text-pink-400">=</span> [<span class="text-cyan-400">1, 2, 3, 4, 5, 6, 7, 8, 9, 10</span>]</div>
+<div>numbers <span class="text-pink-400">=</span> <span class="text-pink-400">list</span>(<span class="text-pink-400">range</span>(<span class="text-cyan-400">10</span>))</div>
 <div v-click>evens <span class="text-pink-400">=</span> [x <span class="text-pink-400">for</span> x <span class="text-pink-400">in</span> numbers <span class="text-pink-400">if</span> x <span class="text-pink-400">%</span> <span class="text-cyan-400">2</span> <span class="text-pink-400">==</span> <span class="text-cyan-400">0</span>]</div>
 <div v-click>doubled <span class="text-pink-400">=</span> [x <span class="text-pink-400">*</span> <span class="text-cyan-400">2</span> <span class="text-pink-400">for</span> x <span class="text-pink-400">in</span> evens]</div>
 <div v-click>result <span class="text-pink-400">=</span> <span class="text-pink-400">sum</span>(doubled)</div>
-<div v-click class="text-green-400 op-80"><span class="text-gray-400">#</span> 60</div>
+<div v-click class="text-green-400 op-80"><span class="text-gray-400">#</span> 40</div>
 </div>
 
 </div>
@@ -35,7 +35,7 @@ class: text-left
 <BgEmoji emoji="🐍" :count="9" animate="drift" :opacity="0.10" :seed="21" />
 
 <!--
-Here's a classic. We start with a list of numbers, one through ten.
+Here's a classic. We start with range(10) - zero through nine. Same as Uiua's range glyph.
 
 [click] We filter for evens - a list comprehension with a condition.
 
@@ -43,7 +43,7 @@ Here's a classic. We start with a list of numbers, one through ten.
 
 [click] And sum it all up. One function call.
 
-[click] Sixty. Four lines. Very Pythonic. Very readable. We all know this.
+[click] Forty. Four lines. Very Pythonic. Very readable. We all know this.
 
 Now let me show you the same thing in Uiua.
 -->
