@@ -19,7 +19,7 @@ clicks: 10
 ---
 
 <div class="font-mono text-center">
-<div class="text-2xl text-green-400 op-80 mb-6" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.3)">⧻⇡10↯⊃(⊂⊙(↻1))⊃(⊂⊙(↻¯1))</div>
+<div class="text-3xl text-green-400 op-80 mb-6 uiua-glow">⧻⇡10↯⊃(⊂⊙(↻1))⊃(⊂⊙(↻¯1))</div>
 
 <div class="text-xl op-90 tracking-widest uppercase mb-8">fibonacci on the stack</div>
 

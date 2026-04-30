@@ -56,8 +56,8 @@ clicks: 7
 
 <div class="h-full w-full flex flex-col items-center justify-center">
 <div class="text-2xl op-90 mb-4">The same transformation</div>
-<div class="text-5xl font-mono mb-10 flex items-center justify-center gap-1" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.1)">
-  <span :class="$clicks === 7 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">/+</span><span :class="$clicks === 6 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">×2</span><span :class="$clicks === 5 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">▽</span><span :class="$clicks === 4 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">=0</span><span :class="$clicks === 3 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">◿2</span><span :class="$clicks === 2 ? 'text-yellow-400 scale-125' : $clicks >= 1 ? 'text-green-400' : 'text-green-400 op-60'" class="transition-all duration-300">⟜∘</span><span :class="$clicks === 1 ? 'text-yellow-400 scale-125' : 'text-green-400 op-60'" class="transition-all duration-300">⇡10</span>
+<div class="text-5xl font-mono mb-10 flex items-center justify-center gap-1">
+  <span :class="$clicks === 7 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">/+</span><span :class="$clicks === 6 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">×2</span><span :class="$clicks === 5 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">▽</span><span :class="$clicks === 4 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">=0</span><span :class="$clicks === 3 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">◿2</span><span :class="$clicks === 2 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">⟜∘</span><span :class="$clicks === 1 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : 'text-green-400 op-60'" class="transition-all duration-300">⇡10</span>
 </div>
 
 <div class="text-2xl h-16 flex flex-col items-center justify-center">
@@ -112,9 +112,9 @@ class: text-center
 <div class="h-full w-full flex flex-col items-center justify-center">
 <div class="text-2xl op-90 mb-6">Change one glyph...</div>
 
-<div class="text-5xl font-mono text-green-400 mb-8" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.4), 0 0 60px rgba(74, 222, 128, 0.15)">
+<div class="text-5xl font-mono text-green-400 mb-8">
 
-/+×<span class="text-yellow-400">3</span>▽=0◿2⟜∘⇡10
+<span class="uiua-glow">/+</span><span>×</span><span class="text-yellow-400 uiua-glow-yellow-isolated relative z-10 px-0.5 inline-block">3</span><span>▽</span><span class="uiua-glow">=0◿2⟜∘⇡10</span>
 
 </div>
 

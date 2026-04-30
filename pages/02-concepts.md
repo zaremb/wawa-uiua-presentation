@@ -86,7 +86,7 @@ clicks: 4
 <div class="font-mono text-center">
 <div class="text-xl op-90 tracking-widest uppercase mb-10">now with arrays</div>
 
-<div class="text-4xl mb-4 text-green-400" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.4), 0 0 60px rgba(74, 222, 128, 0.15)">
+<div class="text-4xl mb-4 text-green-400 uiua-glow">
   <span v-show="$clicks === 0">⇡5</span>
   <span v-show="$clicks === 1">+1⇡5</span>
   <span v-show="$clicks === 2">⇌+1⇡5</span>
@@ -131,7 +131,7 @@ class: text-center
 transition: fade
 ---
 
-<div class="text-3xl font-mono text-green-400 op-80 mb-12" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.3)">⧻⇡10↯⊃(⊂⊙(↻1))⊃(⊂⊙(↻¯1))</div>
+<div class="text-3xl font-mono text-green-400 op-80 mb-12 uiua-glow">⧻⇡10↯⊃(⊂⊙(↻1))⊃(⊂⊙(↻¯1))</div>
 
 <div v-click class="text-5xl font-bold">"Unreadable!"</div>
 
@@ -203,7 +203,7 @@ transition: fade
 
 <div class="text-3xl leading-relaxed">
 You type <span class="font-mono text-blue-400">reverse</span>
-<div v-click class="mt-4 text-5xl font-mono text-green-400">⇌</div>
+<div v-click class="mt-4 text-5xl font-mono text-green-400 uiua-glow uiua-glow-boost">⇌</div>
 <div v-click class="text-2xl op-90 mt-6">The editor does the rest.</div>
 </div>
 

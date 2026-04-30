@@ -4,7 +4,7 @@ class: text-center
 transition: fade
 ---
 
-<div class="text-5xl font-mono text-green-400 mb-8" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.4), 0 0 60px rgba(74, 222, 128, 0.15)">⇌ ♭ ⊂ △ ⊃ ↯ ◿</div>
+<div class="text-5xl font-mono text-green-400 mb-8 uiua-glow">⇌ ♭ ⊂ △ ⊃ ↯ ◿</div>
 
 <div class="text-3xl font-bold">Not alien. Just unfamiliar.</div>
 

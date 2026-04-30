@@ -10,3 +10,36 @@
   border-radius: 0.5rem;
   padding: 1.5rem !important;
 }
+
+/* Uiua glyph glow variants. Keep source glyphs glowing, but match
+   halo color to text color when highlighting (green vs yellow). */
+.uiua-glow {
+  text-shadow:
+    0 0 14px rgba(74, 222, 128, 0.45),
+    0 0 32px rgba(74, 222, 128, 0.22),
+    0 0 64px rgba(74, 222, 128, 0.1);
+}
+
+.uiua-glow-yellow {
+  text-shadow:
+    0 0 14px rgba(250, 204, 21, 0.58),
+    0 0 32px rgba(250, 204, 21, 0.34),
+    0 0 64px rgba(250, 204, 21, 0.16);
+}
+
+/* Yellow highlight with a subtle dark buffer to prevent nearby green glow bleed. */
+.uiua-glow-yellow-isolated {
+  text-shadow:
+    0 0 8px rgba(0, 0, 0, 0.92),
+    0 0 14px rgba(250, 204, 21, 0.62),
+    0 0 30px rgba(250, 204, 21, 0.36),
+    0 0 56px rgba(250, 204, 21, 0.18);
+}
+
+/* Use on smaller glyph groups where halo can disappear on weaker displays. */
+.uiua-glow-boost {
+  text-shadow:
+    0 0 16px rgba(74, 222, 128, 0.78),
+    0 0 36px rgba(74, 222, 128, 0.5),
+    0 0 72px rgba(74, 222, 128, 0.3);
+}

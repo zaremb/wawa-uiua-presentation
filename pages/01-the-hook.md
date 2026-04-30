@@ -5,7 +5,7 @@ class: bg-black text-center
 ---
 
 <div class="absolute inset-0 flex items-center justify-center">
-<div class="text-5xl font-mono tracking-wide text-green-400" style="text-shadow: 0 0 20px rgba(74, 222, 128, 0.4), 0 0 60px rgba(74, 222, 128, 0.15)">
+<div class="text-5xl font-mono tracking-wide text-green-400 uiua-glow">
 
 ⧻⇡10↯⊃(⊂⊙(↻1))⊃(⊂⊙(↻¯1))
 
