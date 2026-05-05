@@ -146,13 +146,13 @@ The code <span class="text-yellow-400">IS</span> the shape of the data.
 <BgEmoji emoji="🚀" :count="5" animate="fly" :opacity="0.20" :seed="55" />
 
 <!--
-[pause - let this statement land]
+[pause - let this land]
 
-This is the key insight. In Uiua, the code isn't describing what to do step by step. It's describing the SHAPE of the transformation.
+In Python you read past the machinery — the for loops, the if, the variable names — to figure out what the data looks like at the end.
 
-You can literally SEE the data flowing through the glyphs. Filter here, multiply there, reshape here.
+In Uiua, there's no machinery. You just read the data changing shape. Ten elements, filter to five, double them, collapse to one number. That's what the code says. That's ALL it says.
 
-Once you get it, you can't unsee it.
+[beat]
 
 And that brings us to the real question...
 -->

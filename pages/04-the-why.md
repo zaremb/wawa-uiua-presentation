@@ -17,6 +17,26 @@ But you're at Python Pizza. You write Python. Why should you care about a langua
 
 ---
 layout: center
+class: bg-black
+transition: fade
+---
+
+<div class="h-full flex items-center justify-center pt-10">
+	<img src="/images/podium.jpg" style="width: min(370px, 68vw); height: auto;" alt="Uiua developer podium meme" />
+</div>
+
+<!--
+[let the room laugh before you say anything]
+
+To be absolutely clear: Uiua is not about to dominate the industry.
+
+It's not replacing Python. It's not replacing NumPy. This is not a conversion sermon.
+
+It's a weird side quest. And weird side quests are great for learning.
+-->
+
+---
+layout: center
 class: text-center
 transition: fade
 ---

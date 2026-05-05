@@ -80,55 +80,6 @@ No variables. No names. Just data flowing through.
 layout: center
 class: text-center
 transition: fade
-clicks: 4
----
-
-<div class="font-mono text-center">
-<div class="text-xl op-90 tracking-widest uppercase mb-10">now with arrays</div>
-
-<div class="text-4xl mb-4 text-green-400 uiua-glow">
-  <span v-show="$clicks === 0">⇡5</span>
-  <span v-show="$clicks === 1">+1⇡5</span>
-  <span v-show="$clicks === 2">⇌+1⇡5</span>
-  <span v-show="$clicks >= 3">/+⇌+1⇡5</span>
-</div>
-
-<div class="text-3xl mb-6 h-14 flex items-center justify-center text-yellow-400">
-  <span v-show="$clicks === 0">[0 1 2 3 4]</span>
-  <span v-show="$clicks === 1">[1 2 3 4 5]</span>
-  <span v-show="$clicks === 2">[5 4 3 2 1]</span>
-  <span v-show="$clicks === 3">15</span>
-  <span v-show="$clicks === 4" class="text-2xl">Four glyphs. One line. Array to number.</span>
-</div>
-
-<div class="text-2xl op-90 h-10">
-  <span v-show="$clicks === 0"><span class="text-yellow-400 font-mono">⇡5</span> - range of 5</span>
-  <span v-show="$clicks === 1"><span class="text-yellow-400 font-mono">+1</span> - add 1 to every element</span>
-  <span v-show="$clicks === 2"><span class="text-yellow-400 font-mono">⇌</span> - reverse</span>
-  <span v-show="$clicks === 3"><span class="text-yellow-400 font-mono">/+</span> - reduce add - sum the whole array</span>
-</div>
-</div>
-
-<!--
-Now the same idea - but with arrays. In Uiua, everything is an array.
-
-Range of 5 - one glyph creates a whole array on the stack.
-
-[click] Plus one - adds to EVERY element. No loop. The whole array transforms at once.
-
-[click] Reverse - flips it. Three glyphs, three transformations.
-
-[click] Reduce add - slash-plus. The whole array collapses into a single number. Fifteen.
-
-[click] Four glyphs. One line. We went from nothing to an array, transformed it, and reduced it to a single value. No variables, no loops.
-
-Now - I know what some of you are thinking...
--->
-
----
-layout: center
-class: text-center
-transition: fade
 ---
 
 <div class="text-3xl font-mono text-green-400 op-80 mb-12 uiua-glow">⧻⇡10↯⊃(⊂⊙(↻1))⊃(⊂⊙(↻¯1))</div>
