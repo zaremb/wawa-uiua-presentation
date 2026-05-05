@@ -51,13 +51,13 @@ Now let me show you the same thing in Uiua.
 ---
 transition: fade
 class: text-center
-clicks: 7
+clicks: 8
 ---
 
-<div class="h-full w-full flex flex-col items-center justify-center">
+<div class="h-full w-full flex flex-col items-center justify-center relative overflow-hidden">
 <div class="text-2xl op-90 mb-4">The same transformation</div>
 <div class="text-5xl font-mono mb-10 flex items-center justify-center gap-1">
-  <span :class="$clicks === 7 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">/+</span><span :class="$clicks === 6 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">×2</span><span :class="$clicks === 5 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">▽</span><span :class="$clicks === 4 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">=0</span><span :class="$clicks === 3 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">◿2</span><span :class="$clicks === 2 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">⟜∘</span><span :class="$clicks === 1 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : 'text-green-400 op-60'" class="transition-all duration-300">⇡10</span>
+  <span :class="$clicks === 8 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">/+</span><span :class="$clicks === 7 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">×2</span><span :class="$clicks === 5 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">▽</span><span :class="$clicks === 4 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">=0</span><span :class="$clicks === 3 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">◿2</span><span :class="$clicks === 2 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">⟜∘</span><span class="inline-flex items-center gap-0.5"><span :class="$clicks === 1 ? 'text-yellow-400 scale-125 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">⇡</span><span :class="$clicks === 1 ? 'text-yellow-400 scale-110 uiua-glow-yellow' : $clicks >= 1 ? 'text-green-400 uiua-glow' : 'text-green-400 op-60'" class="transition-all duration-300">10</span></span>
 </div>
 
 <div class="text-2xl h-16 flex flex-col items-center justify-center">
@@ -67,8 +67,9 @@ clicks: 7
   <div v-show="$clicks === 3" class="text-yellow-400"><span class="font-mono">◿2</span> <span class="op-90 ml-2">modulo 2 - remainder of each</span></div>
   <div v-show="$clicks === 4" class="text-yellow-400"><span class="font-mono">=0</span> <span class="op-90 ml-2">equals 0 - mask of evens</span></div>
   <div v-show="$clicks === 5" class="text-yellow-400"><span class="font-mono">▽</span> <span class="op-90 ml-2">keep - filter by the mask</span></div>
-  <div v-show="$clicks === 6" class="text-yellow-400"><span class="font-mono">×2</span> <span class="op-90 ml-2">multiply 2 - double them</span></div>
-  <div v-show="$clicks === 7" class="text-yellow-400"><span class="font-mono">/+</span> <span class="op-90 ml-2">reduce add - sum to one number</span></div>
+  <div v-show="$clicks === 6" class="text-yellow-400 text-3xl font-bold">No ifs. Just data.</div>
+  <div v-show="$clicks === 7" class="text-yellow-400"><span class="font-mono">×2</span> <span class="op-90 ml-2">multiply 2 - double them</span></div>
+  <div v-show="$clicks === 8" class="text-yellow-400"><span class="font-mono">/+</span> <span class="op-90 ml-2">reduce add - sum to one number</span></div>
 </div>
 
 <div class="font-mono text-lg op-80 h-8 mt-2">
@@ -77,9 +78,16 @@ clicks: 7
   <span v-show="$clicks === 3" class="text-green-300">→ [0 1 0 1 0 1 0 1 0 1] · [0..9]</span>
   <span v-show="$clicks === 4" class="text-green-300">→ [1 0 1 0 1 0 1 0 1 0] · [0..9]</span>
   <span v-show="$clicks === 5" class="text-green-300">→ [0 2 4 6 8]</span>
-  <span v-show="$clicks === 6" class="text-green-300">→ [0 4 8 12 16]</span>
-  <span v-show="$clicks === 7" class="text-green-300 text-xl font-bold">→ 40</span>
+  <span v-show="$clicks === 7" class="text-green-300">→ [0 4 8 12 16]</span>
+  <span v-show="$clicks === 8" class="text-green-300 text-xl font-bold">→ 40</span>
 </div>
+
+<img
+  src="/images/stachu-removebg-preview.png"
+  :class="$clicks >= 6 ? 'translate-x-0 scale-100 rotate-0 op-100' : '-translate-x-full scale-0 -rotate-180 op-0'"
+  class="absolute bottom-0 left-0 w-64 transition-all duration-1000 ease-out origin-bottom-left"
+  alt=""
+/>
 </div>
 
 <!--
@@ -97,9 +105,19 @@ Same transformation. One line. Watch the stack - right to left.
 
 [click] Keep - uses that mask to filter. Stack shrinks to just the evens.
 
+[pause - let click 5 breathe]
+
+There's no if-statement here. The condition became a vector. The filter is just multiplication. This language has no control flow at all.
+
+[click - Stachu spirals in from the left, audience notices and laughs]
+
+No ifs. Just data. That's it. That's the whole philosophy.
+
+[ride the laugh, then continue]
+
 [click] Times 2 - doubles everything. [0 4 8 12 16].
 
-[click] Reduce add - slash plus. The whole array collapses into a single number. Forty. Array in, number out. That's reduce.
+[click] Reduce add - slash plus. Forty. Done.
 
 See the data flowing? Each glyph transforms the stack. That's the whole language.
 -->
