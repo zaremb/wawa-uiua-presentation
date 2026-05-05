@@ -48,15 +48,17 @@ Broaden your vocabulary.
 </div>
 
 <!--
-[pause]
+[let the laugh settle, then shift to sincere]
+
+But here's the thing — that weird side quest? It actually pays off.
 
 Broaden your vocabulary...
 
 [click] ...sharpen your thoughts.
 
-[click] Write better Python. That's the punchline.
+[click] Write better Python. That's it. That's why you should care.
 
-The language you speak shapes how you think. If the only tool you have is a for-loop, everything looks like iteration. Learn to think in arrays, in masks, in broadcasting - and your Python gets better. Automatically.
+The language you think in shapes the code you write. If your only tool is a for-loop, everything looks like iteration. But learn to think in arrays, in masks, in broadcasting — and your Python gets better. Automatically.
 -->
 
 ---
