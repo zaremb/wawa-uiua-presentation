@@ -55,6 +55,4 @@ src: ./pages/04-the-why.md
 src: ./pages/05-close.md
 ---
 
----
-src: ./pages/06-backup.md
----
+
