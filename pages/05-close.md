@@ -49,7 +49,13 @@ transition: fade
 
 <div class="mt-8 text-lg op-75">Mateusz Zaremba · Ørsted</div>
 
-<BgEmoji emoji="🍄" :count="12" animate="grow" :opacity="0.80" :seed="77" />
+<div v-click.hide="2">
+  <BgEmoji emoji="🍄" :count="12" animate="grow" :opacity="0.80" :seed="77" />
+</div>
+
+<div v-click="2">
+  <CircleGrid :rows="7" :cols="9" :size="10" :opacity="0.35" />
+</div>
 
 <!--
 [Borat voice, big energy] "WAWA-UIUA! Very niiiiice!"
@@ -61,4 +67,6 @@ Go to uiua.org. There's a playground right in the browser - uiua.org/pad. You ca
 Thank you, Warsaw. Thank you, Python Pizza. Enjoy your slices.
 
 [smile]
+
+[click 2 — easter egg: mushrooms vanish, regular white dots appear in a grid — reference to Angine de Poitrine album art]
 -->
