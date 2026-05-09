@@ -29,6 +29,36 @@ The Klingon was a greeting. This is math. Both look alien... until you learn the
 -->
 
 ---
+layout: image-left
+image: /images/mateusz.jpg
+class: bg-black text-white
+transition: fade
+---
+
+<div class="h-full flex flex-col justify-center pl-4">
+<div class="text-5xl font-bold tracking-tight">Mateusz Zaremba</div>
+<div class="text-2xl op-80 mt-6">Senior Application Architect</div>
+<div class="text-2xl text-blue-400 mt-1">Ørsted</div>
+<div class="text-base op-70 mt-8 font-mono">ex-AWS · Python · aerospace · ⛵</div>
+</div>
+
+<!--
+[casual, grounding the audience after the alien confusion]
+
+Hi! I'm Mateusz Zaremba. Senior Application Architect at Ørsted - the wind energy company.
+
+I've done my time at AWS, I write a lot of Python, I studied aerospace engineering, I sail...
+
+[pause, then shift tone - quieter, almost confessional]
+
+...but honestly, none of that matters right now.
+
+There is just this one language I can't stop thinking about.
+
+[click - transition to next slide]
+-->
+
+---
 layout: none
 class: bg-black text-center
 transition: fade
@@ -51,33 +81,9 @@ Welcome to Python Pizza Warsaw! Or as Borat and I call it... Wawa.
 
 "Uiua" - pronounced "WEE-wah." Wawa-Uiua. Very nice. I will not apologize for this pun.
 
-I'm here to talk about a stack-based, array-oriented programming language that looks like someone spilled a Unicode chart on their keyboard.
+So yes - a stack-based, array-oriented programming language that looks like someone spilled a Unicode chart on their keyboard.
 
 But I promise - by the end of this talk, you'll start to see beauty in those squiggles. And more importantly, they'll change how you think about Python.
 
 Let's go. Great success!
--->
-
----
-layout: image-left
-image: /images/mateusz.jpg
-class: bg-black text-white
-transition: fade
----
-
-<div class="h-full flex flex-col justify-center pl-4">
-<div class="text-5xl font-bold tracking-tight">Mateusz Zaremba</div>
-<div class="text-2xl op-80 mt-6">Senior Application Architect</div>
-<div class="text-2xl text-blue-400 mt-1">Ørsted</div>
-<div class="text-base op-70 mt-8 font-mono">ex-AWS · Python · aerospace · ⛵</div>
-</div>
-
-<!--
-[quick - 5 seconds max, don't linger]
-
-I'm Mateusz. I'm a Senior Application Architect at Ørsted - the wind energy company. Before that, I was at AWS.
-
-I mostly write Python, but before all of this tech stuff, I studied aerospace engineering. And I sail.
-
-None of that matters right now. What matters is this language I can't stop thinking about.
 -->

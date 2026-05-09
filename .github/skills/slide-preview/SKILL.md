@@ -43,7 +43,7 @@ If the presentation has more than 20 slides:
 - **Skip blanks**: Slides with `layout: none` or pure black backgrounds don't need visual review
 - Count PNGs first: `ls slides-export/*.png | wc -l`
 
-### Re-export After Changes
+### Re-export After Change
 
 After fixing visual issues, re-export to verify:
 ```bash
