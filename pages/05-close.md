@@ -36,7 +36,6 @@ Uiua's unique twist: it's stack-based (no variable names at all), and it auto-fo
 layout: center
 class: text-center
 transition: fade
-clicks: 1
 ---
 
 <div class="text-6xl font-bold mb-8">Wawa-Uiua!</div>
@@ -50,15 +49,7 @@ clicks: 1
 
 <div class="mt-8 text-lg op-75">Mateusz Zaremba · Ørsted</div>
 
-<!-- Mushrooms → white dots easter egg -->
-<div :class="$clicks >= 1 ? 'op-0' : 'op-100'" class="transition-opacity duration-1500">
-  <BgEmoji emoji="🍄" :count="12" animate="grow" :opacity="0.80" :seed="77" />
-</div>
-<div :class="$clicks >= 1 ? 'op-100' : 'op-0'" class="transition-opacity duration-1500 text-white">
-  <BgEmoji emoji="●" :count="12" animate="float" :opacity="0.55" :seed="77" />
-</div>
-
-<div :class="$clicks >= 1 ? 'op-30' : 'op-0'" class="absolute bottom-3 right-5 text-xs font-mono transition-opacity duration-2000">angine de poitrine</div>
+<BgEmoji emoji="🍄" :count="12" animate="grow" :opacity="0.80" :seed="77" />
 
 <!--
 [Borat voice, big energy] "WAWA-UIUA! Very niiiiice!"
@@ -70,6 +61,4 @@ Go to uiua.org. There's a playground right in the browser - uiua.org/pad. You ca
 Thank you, Warsaw. Thank you, Python Pizza. Enjoy your slices.
 
 [smile]
-
-[click - easter egg: mushrooms morph into white dots, "angine de poitrine" appears]
 -->
