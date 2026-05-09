@@ -49,13 +49,7 @@ transition: fade
 
 <div class="mt-8 text-lg op-75">Mateusz Zaremba · Ørsted</div>
 
-<div v-click.hide="2">
-  <BgEmoji emoji="🍄" :count="12" animate="grow" :opacity="0.80" :seed="77" />
-</div>
-
-<div v-click="2">
-  <CircleGrid :rows="7" :cols="9" :size="10" :opacity="0.35" />
-</div>
+<CircleGrid :rows="7" :cols="9" :size="10" :opacity="0.35" :delay="5" />
 
 <!--
 [Borat voice, big energy] "WAWA-UIUA! Very niiiiice!"
@@ -68,5 +62,5 @@ Thank you, Warsaw. Thank you, Python Pizza. Enjoy your slices.
 
 [smile]
 
-[click 2 — easter egg: mushrooms vanish, regular white dots appear in a grid — reference to Angine de Poitrine album art]
+[after ~5 seconds — easter egg: regular white dots quietly appear in a grid behind text — reference to Angine de Poitrine]
 -->
