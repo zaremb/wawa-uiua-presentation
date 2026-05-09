@@ -47,7 +47,7 @@ clicks: 4
 <div class="text-5xl mb-8 h-20 flex items-center justify-center">
   <span v-show="$clicks === 0" class="op-70">[ ]</span>
   <span v-show="$clicks === 1" class="text-green-400">[ 3 ]</span>
-  <span v-show="$clicks === 2" class="text-green-400">[ 3 &ensp; 5 ]</span>
+  <span v-show="$clicks === 2" class="text-green-400">[ 5 &ensp; 3 ]</span>
   <span v-show="$clicks === 3" class="text-green-400">[ 8 ]</span>
   <span v-show="$clicks === 4" class="text-yellow-400">[ 16 ]</span>
 </div>
