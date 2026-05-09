@@ -49,7 +49,7 @@ transition: fade
 
 <div class="mt-8 text-lg op-75">Mateusz Zaremba · Ørsted</div>
 
-<CircleGrid :rows="7" :cols="9" :size="10" :opacity="0.35" :delay="5" />
+<CircleGrid :rows="7" :cols="9" :size="10" :opacity="0.85" :delay="5" />
 
 <!--
 [Borat voice, big energy] "WAWA-UIUA! Very niiiiice!"
